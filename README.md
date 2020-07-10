@@ -12,6 +12,9 @@ Contiene:
 + myhttp:  
  - Implementacion ultrapequeña del protocolo http. Este unicamnete implementa metodos GET y POST, con los codigos de respuesta 200 y 404.  
  - Ejecutar `import myhttp` y ya esta corriendo un servidor!
++ ftp-server:
+ - Pequeño servidor ftp. Permite listar archivos, obtener su tamaño y descarga total o parcial.
+ - Primero `from ftpserver import Server` luego `ftp = Server()` y finalmente `ftp.serve()` y ya tiene su server ftp ejecutando!
 
 
 
@@ -32,3 +35,6 @@ Content:
 + myhttp:  
  - Ultra small implementation of http protocol. This only implement GET and POST methods, with 200 and 404 responde codes.  
  - Run `import myhttp` and a server is already running!
++ ftp-server:
+ - Little server ftp. Allows listing file, obtain size and full or partial download.
+ - First `from ftpserver import Server` then `ftp = Server()` finally `ftp.serve()` and a ftp server is already running!
