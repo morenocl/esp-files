@@ -15,6 +15,8 @@ Contiene:
 + ftp-server:
  - Pequeño servidor ftp. Permite listar archivos, obtener su tamaño y descarga total o parcial.
  - Primero `from ftpserver import Server` luego `ftp = Server()` y finalmente `ftp.serve()` y ya tiene su server ftp ejecutando!
+ + wlan:
+  - Una simple funcion para conectar al wifi.
 
 
 
@@ -38,3 +40,5 @@ Content:
 + ftp-server:
  - Little server ftp. Allows listing file, obtain size and full or partial download.
  - First `from ftpserver import Server` then `ftp = Server()` finally `ftp.serve()` and a ftp server is already running!
++ wlan:
+ - A simple function to connect to wifi.
